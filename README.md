@@ -1,4 +1,4 @@
-# Project 2 Commerce
+# Auction Website(similar to Ebay)
 
 Description:
 
@@ -21,7 +21,3 @@ Description:
 *db.sqlite3*: This text file contains the database for the entire website.
 
 *manage.py*: This is the main python file used to run this entire program.
-
-## Demonstration Video
-
-Youtube Link: https://youtu.be/YQzjZSuuuPI
