@@ -1,23 +1,30 @@
-# Auction Website(similar to Ebay)
+# Auction Website (Ebay-inspired)
 
-Description:
+## Project Overview
 
-*vs.code*: This file contains all the settings to run the program in visual studio code
+This project is a web-based auction platform inspired by eBay, developed using Django. It allows users to browse, bid on, and list items for auction, with a focus on providing a seamless user experience for managing transactions and item listings.
 
-*auctions*: This folder containcs all the _pycache_, *migrations*, *static/auctions*, *templates/auctions*, and all the other python files.
+## Project Structure
 
-*_pycache_*: This folder contains all the prevoius session data
+- **.vscode/**: Contains the configuration settings required to run the project in Visual Studio Code.
+  
+- **auctions/**: The main directory for the application, including:
+  - **_pycache_/**: Stores session data and compiled Python files.
+  - **migrations/**: Handles database migration files for seamless updates.
+  - **static/auctions/**: Houses all CSS files to style the website.
+  - **templates/auctions/**: Contains HTML templates that define the front-end of the site.
+  - Additional Python files that implement Django's core functionality.
 
-*Python files*: The other python files are all used to import the django aspects of the program.
+- **commerce/**: Another folder containing Django-related files and additional _pycache/_ for application caching.
 
-*migrations*: Contains more *_pycache_* files
+- **db.sqlite3**: A SQLite database file that stores all site data, including users, bids, listings, and transaction history.
 
-*static/auctions*: This folder contains all the *css* elements for this program and it is responsible for styling.
+- **manage.py**: The main Python script that orchestrates the entire project, allowing developers to run the server, manage the database, and handle migrations.
 
-*templates/auctions*: This folder contains all the html files for this program.
+## Objective
 
-*commerce*: This Folder hold more *_pycache_* files and other python files.
+The objective of this project was to build a full-stack web application that replicates the core functionalities of popular auction websites like eBay. It offers features such as user registration, item listings, bidding, and transaction management, all while maintaining a clean and user-friendly interface.
 
-*db.sqlite3*: This text file contains the database for the entire website.
+## Lessons Learned
 
-*manage.py*: This is the main python file used to run this entire program.
+Throughout the development process, I gained valuable experience in Django, web development, and database management. I enhanced my understanding of front-end and back-end integration, improving my skills in HTML, CSS, and Python. Additionally, working with migrations and handling user sessions helped me grasp the intricacies of maintaining a web application's state across multiple users.
